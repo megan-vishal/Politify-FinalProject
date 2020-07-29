@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "73E3677B-32F2-4E5C-AFC9-0B903AC42A46"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "68C816EC-4A74-433C-A4F0-C7134DFD5B61"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Politify-FinalProject/profileMainPageViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "profileMainPageViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "68C816EC-4A74-433C-A4F0-C7134DFD5B61 - 7a55e571049c86ca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Politify_FinalProject.profileMainPageViewController.__deallocating_deinit"
+                  moduleName = "Politify-FinalProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Documents/Politify-FinalProject/Politify-FinalProject/profileMainPageViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "68C816EC-4A74-433C-A4F0-C7134DFD5B61 - d95d46f46d6d5844"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Politify_FinalProject.profileMainPageViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Politify_FinalProject.profileMainPageViewController"
+                  moduleName = "Politify-FinalProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Documents/Politify-FinalProject/Politify-FinalProject/profileMainPageViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "68C816EC-4A74-433C-A4F0-C7134DFD5B61 - 179643cc8c84eaef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Politify_FinalProject.profileMainPageViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Politify_FinalProject.profileMainPageViewController"
+                  moduleName = "Politify-FinalProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Documents/Politify-FinalProject/Politify-FinalProject/profileMainPageViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "146">
+               </Location>
+               <Location
+                  uuid = "68C816EC-4A74-433C-A4F0-C7134DFD5B61 - a7abf8cf5b3997fe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Politify_FinalProject.profileMainPageViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Politify_FinalProject.profileMainPageViewController&gt;"
+                  moduleName = "Politify-FinalProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Documents/Politify-FinalProject/Politify-FinalProject/profileMainPageViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "68C816EC-4A74-433C-A4F0-C7134DFD5B61 - cde57840bce1d6b3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Politify_FinalProject.profileMainPageViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Politify_FinalProject.profileMainPageViewController&gt;"
+                  moduleName = "Politify-FinalProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/apple/Documents/Politify-FinalProject/Politify-FinalProject/profileMainPageViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "102">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

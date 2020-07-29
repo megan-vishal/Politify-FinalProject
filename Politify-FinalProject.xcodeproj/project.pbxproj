@@ -16,6 +16,13 @@
 		1869F05D24D0BFC1008F9B96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1869F05B24D0BFC1008F9B96 /* LaunchScreen.storyboard */; };
 		1869F06824D0BFC1008F9B96 /* Politify_FinalProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1869F06724D0BFC1008F9B96 /* Politify_FinalProjectTests.swift */; };
 		1869F07324D0BFC2008F9B96 /* Politify_FinalProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1869F07224D0BFC2008F9B96 /* Politify_FinalProjectUITests.swift */; };
+		1869F0C824D1FC02008F9B96 /* profileMainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1869F0C724D1FC02008F9B96 /* profileMainPageViewController.swift */; };
+		1869F0CA24D1FC3A008F9B96 /* stateBillsMainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1869F0C924D1FC3A008F9B96 /* stateBillsMainPageViewController.swift */; };
+		1869F0CC24D1FC6C008F9B96 /* nationwideBillsMainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1869F0CB24D1FC6C008F9B96 /* nationwideBillsMainPageViewController.swift */; };
+		1869F0CE24D203CD008F9B96 /* congressMainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1869F0CD24D203CD008F9B96 /* congressMainPageViewController.swift */; };
+		1869F0D024D204EF008F9B96 /* senatorsMainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1869F0CF24D204EF008F9B96 /* senatorsMainPageViewController.swift */; };
+		1869F0D224D20503008F9B96 /* repsMainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1869F0D124D20503008F9B96 /* repsMainPageViewController.swift */; };
+		1869F0D424D20516008F9B96 /* presMainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1869F0D324D20516008F9B96 /* presMainPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,13 @@
 		1869F06E24D0BFC2008F9B96 /* Politify-FinalProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Politify-FinalProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1869F07224D0BFC2008F9B96 /* Politify_FinalProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Politify_FinalProjectUITests.swift; sourceTree = "<group>"; };
 		1869F07424D0BFC2008F9B96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1869F0C724D1FC02008F9B96 /* profileMainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileMainPageViewController.swift; sourceTree = "<group>"; };
+		1869F0C924D1FC3A008F9B96 /* stateBillsMainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stateBillsMainPageViewController.swift; sourceTree = "<group>"; };
+		1869F0CB24D1FC6C008F9B96 /* nationwideBillsMainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nationwideBillsMainPageViewController.swift; sourceTree = "<group>"; };
+		1869F0CD24D203CD008F9B96 /* congressMainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = congressMainPageViewController.swift; sourceTree = "<group>"; };
+		1869F0CF24D204EF008F9B96 /* senatorsMainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = senatorsMainPageViewController.swift; sourceTree = "<group>"; };
+		1869F0D124D20503008F9B96 /* repsMainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = repsMainPageViewController.swift; sourceTree = "<group>"; };
+		1869F0D324D20516008F9B96 /* presMainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = presMainPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +119,13 @@
 				1869F04F24D0BFBD008F9B96 /* SceneDelegate.swift */,
 				1869F05124D0BFBD008F9B96 /* ViewController.swift */,
 				1869F05324D0BFBD008F9B96 /* Main.storyboard */,
+				1869F0CF24D204EF008F9B96 /* senatorsMainPageViewController.swift */,
+				1869F0D124D20503008F9B96 /* repsMainPageViewController.swift */,
+				1869F0D324D20516008F9B96 /* presMainPageViewController.swift */,
+				1869F0CD24D203CD008F9B96 /* congressMainPageViewController.swift */,
+				1869F0CB24D1FC6C008F9B96 /* nationwideBillsMainPageViewController.swift */,
+				1869F0C924D1FC3A008F9B96 /* stateBillsMainPageViewController.swift */,
+				1869F0C724D1FC02008F9B96 /* profileMainPageViewController.swift */,
 				1869F05924D0BFC1008F9B96 /* Assets.xcassets */,
 				1869F05B24D0BFC1008F9B96 /* LaunchScreen.storyboard */,
 				1869F05E24D0BFC1008F9B96 /* Info.plist */,
@@ -262,10 +283,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1869F0D224D20503008F9B96 /* repsMainPageViewController.swift in Sources */,
 				1869F05224D0BFBD008F9B96 /* ViewController.swift in Sources */,
 				1869F04E24D0BFBD008F9B96 /* AppDelegate.swift in Sources */,
 				1869F05824D0BFBD008F9B96 /* Politify_FinalProject.xcdatamodeld in Sources */,
+				1869F0D424D20516008F9B96 /* presMainPageViewController.swift in Sources */,
+				1869F0CA24D1FC3A008F9B96 /* stateBillsMainPageViewController.swift in Sources */,
+				1869F0CE24D203CD008F9B96 /* congressMainPageViewController.swift in Sources */,
 				1869F05024D0BFBD008F9B96 /* SceneDelegate.swift in Sources */,
+				1869F0D024D204EF008F9B96 /* senatorsMainPageViewController.swift in Sources */,
+				1869F0C824D1FC02008F9B96 /* profileMainPageViewController.swift in Sources */,
+				1869F0CC24D1FC6C008F9B96 /* nationwideBillsMainPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
