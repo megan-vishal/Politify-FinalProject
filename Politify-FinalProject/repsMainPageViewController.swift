@@ -22,9 +22,9 @@ class repsMainPageTableViewController: UITableViewController {
               super.viewDidLoad()
               
               tableViewData = [
-                                repsData(opened: false, title: "Anna Eshoo", sectionData: ["House of Representatives", "State: CA", "Party Affiliation: Democrat", "Congressional District: 18"]),
-                                repsData(opened: false, title: "Title 2", sectionData: ["Cell 1", "Cell 2", "Cell 3"]),
-                                repsData(opened: false, title: "Title 3", sectionData: ["Cell 1", "Cell 2", "Cell 3"]),]
+                                repsData(opened: false, title: "Ro Khanna", sectionData: ["House of Representatives", "State: CA", "Congressional District: 17"]),
+                                repsData(opened: false, title: "Anna Eshoo", sectionData: ["House of Representatives", "State: CA", "Party Affiliation: Democrat", "Congressional District: 18", "Viewpoints:", "   - Pro Choice", "   - Pro Women's Rights", "   - Pro Marijuana", "   - Pro Paid Maternal Leave", "   - LGBTQ+ Supporter", "   - Supporter of Criminal Rehabilitation Systems (re-entry into society)"]),
+                                repsData(opened: false, title: "Zoe Lofgren", sectionData: ["House of Representatives", "State: CA", "Congressional District: 19"])]
           }
 
           override func numberOfSections(in tableView: UITableView) -> Int {
@@ -42,14 +42,16 @@ class repsMainPageTableViewController: UITableViewController {
           override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
               let dataIndex = indexPath.row - 1
               if indexPath.row == 0 {
-                  guard let cell = tableView.dequeueReusableCell(withIdentifier: "repsCell") else {return UITableViewCell()}
-                  cell.textLabel?.text = tableViewData[indexPath.section].title
-                  return cell
+                  guard let cellTitle = tableView.dequeueReusableCell(withIdentifier: "repsCellTitle") else {return UITableViewCell()}
+                  cellTitle.textLabel?.text = tableViewData[indexPath.section].title
+                cellTitle.textLabel?.font = UIFont.systemFont(ofSize: 25, weight: .bold)
+                return cellTitle
               } else {
                   //USe different cell identifiers if needed
-                  guard let cell = tableView.dequeueReusableCell(withIdentifier: "repsCell") else {return UITableViewCell()}
-                  cell.textLabel?.text = tableViewData[indexPath.section].sectionData[dataIndex]
-                  return cell
+                  guard let cellData = tableView.dequeueReusableCell(withIdentifier: "repsCellData") else {return UITableViewCell()}
+                  cellData.textLabel?.text = tableViewData[indexPath.section].sectionData[dataIndex]
+                cellData.textLabel?.font = UIFont.systemFont(ofSize: 16, weight: .medium)
+                  return cellData
               }
           }
 
