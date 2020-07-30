@@ -14,8 +14,8 @@
             filePath = "Politify-FinalProject/profileMainPageViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "12"
-            endingLineNumber = "12"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
             landmarkName = "profileMainPageViewController"
             landmarkType = "3">
             <Locations>
@@ -60,8 +60,8 @@
                   urlString = "file:///Users/apple/Documents/Politify-FinalProject/Politify-FinalProject/profileMainPageViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "14"
-                  endingLineNumber = "14"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
                   offsetFromSymbolStart = "146">
                </Location>
                <Location
@@ -90,8 +90,8 @@
                   urlString = "file:///Users/apple/Documents/Politify-FinalProject/Politify-FinalProject/profileMainPageViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "14"
-                  endingLineNumber = "14"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
                   offsetFromSymbolStart = "102">
                </Location>
             </Locations>
