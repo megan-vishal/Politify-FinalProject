@@ -10,11 +10,39 @@ import UIKit
 
 class nationwideBillsMainPageViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    @IBOutlet weak var nationwideBillsTable: UITableView!
+    
+        override func viewDidLoad() {
+            super.viewDidLoad()
+            
+            nationwideBillsTable.delegate = self
+           nationwideBillsTable.dataSource = self
 
-        // Do any additional setup after loading the view.
+            // Do any additional setup after loading the view.
+        }
+
     }
+    extension nationwideBillsMainPageViewController: UITableViewDelegate {
+        func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+            print("you clicked this cell")
+        }
+    }
+    extension nationwideBillsMainPageViewController: UITableViewDataSource {
+        func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+            return 1
+
+        }
+        func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+            let cell = tableView.dequeueReusableCell(withIdentifier: "NationBillCell", for: indexPath)
+            cell.textLabel?.text = "USA Bill"
+            return cell
+        }
+    }
+
+    
+
+   
+
     
 
     /*
@@ -27,4 +55,4 @@ class nationwideBillsMainPageViewController: UIViewController {
     }
     */
 
-}
+

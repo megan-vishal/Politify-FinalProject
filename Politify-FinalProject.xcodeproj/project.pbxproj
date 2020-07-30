@@ -96,7 +96,6 @@
 			isa = PBXGroup;
 			children = (
 				1869F04C24D0BFBD008F9B96 /* Politify-FinalProject */,
-				1869F06624D0BFC1008F9B96 /* Politify-FinalProjectTests */,
 				1869F07124D0BFC2008F9B96 /* Politify-FinalProjectUITests */,
 				1869F04B24D0BFBD008F9B96 /* Products */,
 			);
@@ -120,15 +119,16 @@
 				1869F05124D0BFBD008F9B96 /* ViewController.swift */,
 				1869F05324D0BFBD008F9B96 /* Main.storyboard */,
 				1869F0CF24D204EF008F9B96 /* senatorsMainPageViewController.swift */,
+				1869F0CD24D203CD008F9B96 /* congressMainPageViewController.swift */,
 				1869F0D124D20503008F9B96 /* repsMainPageViewController.swift */,
 				1869F0D324D20516008F9B96 /* presMainPageViewController.swift */,
-				1869F0CD24D203CD008F9B96 /* congressMainPageViewController.swift */,
 				1869F0CB24D1FC6C008F9B96 /* nationwideBillsMainPageViewController.swift */,
 				1869F0C924D1FC3A008F9B96 /* stateBillsMainPageViewController.swift */,
 				1869F0C724D1FC02008F9B96 /* profileMainPageViewController.swift */,
 				1869F05924D0BFC1008F9B96 /* Assets.xcassets */,
 				1869F05B24D0BFC1008F9B96 /* LaunchScreen.storyboard */,
 				1869F05E24D0BFC1008F9B96 /* Info.plist */,
+				1869F06624D0BFC1008F9B96 /* Politify-FinalProjectTests */,
 				1869F05624D0BFBD008F9B96 /* Politify_FinalProject.xcdatamodeld */,
 			);
 			path = "Politify-FinalProject";

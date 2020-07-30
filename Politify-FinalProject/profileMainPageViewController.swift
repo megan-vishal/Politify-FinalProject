@@ -8,7 +8,7 @@
 
 import UIKit
 import MapKit
-
+// keep the blue tab deselected 
 class profileMainPageViewController: UIViewController {
 
     @IBOutlet weak var mapLocation: MKMapView!
