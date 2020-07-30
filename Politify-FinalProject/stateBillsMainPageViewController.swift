@@ -34,7 +34,7 @@ extension stateBillsMainPageViewController: UITableViewDataSource {
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "StateBillCell", for: indexPath)
-        cell.textLabel?.text = "California Bill"
+        cell.textLabel?.text = "California Assembly Bill 2617"
         return cell
     }
 }

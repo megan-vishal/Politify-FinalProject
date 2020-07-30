@@ -34,7 +34,7 @@ class nationwideBillsMainPageViewController: UIViewController {
         }
         func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
             let cell = tableView.dequeueReusableCell(withIdentifier: "NationBillCell", for: indexPath)
-            cell.textLabel?.text = "USA Bill"
+            cell.textLabel?.text = "H.R.6800 - The Heroes Act"
             return cell
         }
     }
