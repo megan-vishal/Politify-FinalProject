@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CB5A93F24D3786B002BD1ED /* stateBillsFirePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB5A93E24D3786B002BD1ED /* stateBillsFirePageViewController.swift */; };
 		1869F04E24D0BFBD008F9B96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1869F04D24D0BFBD008F9B96 /* AppDelegate.swift */; };
 		1869F05024D0BFBD008F9B96 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1869F04F24D0BFBD008F9B96 /* SceneDelegate.swift */; };
 		1869F05224D0BFBD008F9B96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1869F05124D0BFBD008F9B96 /* ViewController.swift */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0CB5A93E24D3786B002BD1ED /* stateBillsFirePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stateBillsFirePageViewController.swift; sourceTree = "<group>"; };
 		1869F04A24D0BFBD008F9B96 /* Politify-FinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Politify-FinalProject.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1869F04D24D0BFBD008F9B96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1869F04F24D0BFBD008F9B96 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				1869F04F24D0BFBD008F9B96 /* SceneDelegate.swift */,
 				1869F05124D0BFBD008F9B96 /* ViewController.swift */,
 				1869F05324D0BFBD008F9B96 /* Main.storyboard */,
+				0CB5A93E24D3786B002BD1ED /* stateBillsFirePageViewController.swift */,
 				1869F0CF24D204EF008F9B96 /* senatorsMainPageViewController.swift */,
 				1869F0CD24D203CD008F9B96 /* congressMainPageViewController.swift */,
 				1869F0D124D20503008F9B96 /* repsMainPageViewController.swift */,
@@ -285,6 +288,7 @@
 			files = (
 				1869F0D224D20503008F9B96 /* repsMainPageViewController.swift in Sources */,
 				1869F05224D0BFBD008F9B96 /* ViewController.swift in Sources */,
+				0CB5A93F24D3786B002BD1ED /* stateBillsFirePageViewController.swift in Sources */,
 				1869F04E24D0BFBD008F9B96 /* AppDelegate.swift in Sources */,
 				1869F05824D0BFBD008F9B96 /* Politify_FinalProject.xcdatamodeld in Sources */,
 				1869F0D424D20516008F9B96 /* presMainPageViewController.swift in Sources */,
